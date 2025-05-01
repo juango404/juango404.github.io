@@ -13,7 +13,7 @@ const productos = [
       "img/zapato1-4.jpg",
     ],
     descripcion:
-      "se combina innovación y elegancia ofreciendo durabilidad y un ajuste impecable con un diseño deportivo y casual para brindar la máxima plenitud día a día..",
+      "Estas zapatillas combinan lo mejor del estilo urbano con toques vibrantes en rosa, azul y lila, creando un look fresco y juvenil que roba miradas donde vayas. Fabricadas con materiales de alta durabilidad y acabados reforzados, estas zapatillas están pensadas para resistir tu ritmo diario sin perder su forma ni color. Gracias a su diseño de malla y ventilación estratégica, tus pies se mantendrán frescos, secos y cómodos durante todo el día.",
   },
   {
     id: 2,
@@ -32,18 +32,17 @@ const productos = [
   },
   {
     id: 3,
-    nombre: "New Fuelcell",
-    precioOriginal: 235000,
-    precio: 159900,
-    descuento: "18%",
+    nombre: "Adidas Adizero",
+    precioOriginal: 255000,
+    precio: 179900,
+    descuento: " 35%",
     imagenes: [
       "img/zapato3-1.jpg",
       "img/zapato3-2.jpg",
       "img/zapato3-3.jpg",
-      "img/zapato3-4.jpg",
     ],
     descripcion:
-      "La tecnología de entre suela que tiene los New Fuelcel, permite una amortiguación óptima y ligera en cada pisada, convirtiéndolos en los aliados perfectos para actividades deportivas..",
+      "Descubre los nuevos Adidas Adizero, diseñados para quienes buscan máximo rendimiento sin sacrificar estilo. Con una combinación de colores vibrantes (naranja, verde y blanco), estos tenis no solo destacan a la vista, sino también en cada paso que das. su Tecnología Lightstrike Pro tiene una suela con amortiguación avanzada que ofrece retorno de energía y suavidad, cuidando tus articulaciones, su diseño ergonómico se ajustan perfectamente al pie, brindando seguridad y comodidad durante todo el día.",
   },
   {
     id: 4,
@@ -72,7 +71,8 @@ const productos = [
       "img/zapato5-3.jpg",
       "img/zapato5-4.jpg",
     ],
-    descripcion: "Zapatillas deportivas urbanas con estilo moderno y máxima comodidad.",
+    descripcion:
+      "Inspirados en la herencia francesa y el diseño contemporáneo, los Lacoste Maison Condée son el equilibrio perfecto entre sofisticación, confort y funcionalidad, ideales para quienes marcan tendencia con discreción y estilo, Confeccionados en cuero sintético de alta calidad y detalles en gamuza, ofrecen durabilidad y una textura refinada, Comodidad todo el día Plantilla acolchada y suela de goma antideslizante que garantiza confort desde la primera puesta.",
   },
   {
     id: 6,
@@ -86,8 +86,37 @@ const productos = [
       "img/zapato6-3.jpg",
       "img/zapato6-4.jpg",
     ],
-    descripcion: "Marca tu estilo propio con los nuevos Balleli Galaxy y tu proximo paso hazlo con comodidad.",
+    descripcion:
+      "Confeccionadas con materiales premium que garantizan resistencia, flexibilidad y larga vida útil, perfectas para acompañarte en tu día a día, con su sistema de amortiguación de aire dual (frontal azul y trasera rosa) que ofrece una pisada ultra suave y reduce el impacto en cada paso. Ideal para caminar, correr o simplemente moverte con comodidad todo el día, Ideales para outfits casuales, deportivos o urbanos. Combínalas como quieras y destaca con un estilo auténtico y atrevido.",
   },
+  {
+    id: 7,
+    nombre: "ONCLOUD MACHETE DAMA",
+    precioOriginal: 295000,
+    precio: 169900,
+    descuento: " 45%",
+    imagenes: [
+      "img/zapato7-1.jpg",
+      "img/zapato7-2.jpg",
+      "img/zapato7-3.jpg",
+    ],
+    descripcion:
+      "Vive una experiencia de pisada sin igual con los innovadores On Running CloudTec, el calzado deportivo diseñado para quienes buscan lo mejor en rendimiento, estilo y confort premium, con su suela de diseño de “nubes” que absorbe el impacto y proporciona una sensación de ligereza y rebote sin esfuerzo, con un diseño de estilo futurista y versátil y una estética moderna y colores sobrios los hacen perfectos tanto para el deporte como para tu outfit urbano.",
+  },
+  {
+    id: 8,
+    nombre: "LECOQ CABALLERO",
+    precioOriginal: 295000,
+    precio: 159900,
+    descuento: " 45%",
+    imagenes: [
+      "img/zapato8-1.jpg",
+      "img/zapato8-2.jpg",
+      "img/zapato8-3.jpg",
+    ],
+    descripcion:
+      "Descubre la fusión perfecta entre historia, comodidad y diseño moderno con los Le Coq Sportif 1882, un modelo inspirado en el legado deportivo francés que no pasa desapercibido, diseño vintage-moderno con  una silueta retro con toques actuales que combina fácilmente con looks urbanos, casuales o deportivos, plantilla acolchada y suela de EVA que garantiza una pisada suave, ideal para caminar o estar de pie por horas.",
+  }
 ];
 
 const carrito = [];
